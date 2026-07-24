@@ -10,6 +10,7 @@ import {
   Globe
 } from 'lucide-react';
 import { companyDetails } from '../data/companyData';
+import remo from "../assets/images/remo.jpg";
 
 interface NavbarProps {
   currentPage: Page;
@@ -107,7 +108,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, setCurrentPage, onO
             className="flex items-center gap-3 text-left group"
           >
             <div className="w-11 h-11 rounded-full bg-slate-950 border-2 border-amber-500/80 flex items-center justify-center shadow-lg shadow-amber-500/10 group-hover:border-amber-400 transition-all">
-              <span className="text-amber-400 font-black text-xl font-serif"><img src="../assets/images/remo.jpg"></span>
+              <span className="text-amber-400 font-black text-xl font-serif"><img
+        src={remo}
+        alt="RemoLance Logo"
+        className="h-12 w-auto"
+      /></span>
             </div>
             <div>
               <span className="text-xl font-black tracking-tight text-white block leading-none">
