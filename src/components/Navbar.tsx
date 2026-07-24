@@ -112,6 +112,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, setCurrentPage, onO
         src={remo}
         alt="RemoLance Logo"
         className="h-12 w-auto"
+                                                                               style={{width:"100px"}}
       /></span>
             </div>
             <div>
