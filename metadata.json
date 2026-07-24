@@ -1,0 +1,6 @@
+{
+  "name": "RemoLance - AI Data Vendor & Workforce Solutions",
+  "description": "Global AI data vendor connecting talent worldwide for AI dataset collection, speech, image, video, multilingual data, and workforce solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
